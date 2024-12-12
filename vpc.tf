@@ -1,6 +1,6 @@
 module "vpc" {
-    #source = "../terraform-swamy-aws-vpc"
-    source = "git::https://github.com/MounikaSai1909/terraform-swamy-aws-vpc.git?ref=master"
+    source = "../terraform-swamy-aws-vpc"
+    #source = "git::https://github.com/MounikaSai1909/terraform-swamy-aws-vpc.git?ref=master"
     project_name = var.project_name
     common_tags = var.common_tags
     public_subnet_cidrs = var.public_subnet_cidrs
